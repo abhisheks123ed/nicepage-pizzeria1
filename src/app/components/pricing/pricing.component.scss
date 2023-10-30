@@ -1,0 +1,45 @@
+.pricing-container{
+    background-image: url("../../../assets/images/r3-min.jpg");
+    padding: 4rem 0;
+    .content{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 30px;
+    }
+    .container1{
+       background-color: rgb(0 0 0 / 66%);
+       color: white;
+       padding: 30px;
+       border-radius: 30px;
+    }
+    p.p2 {
+        color: #808080;
+        font-size: larger;
+
+        a {
+            color: #808080;
+            border-bottom: 1px solid #808080 ;
+            text-decoration: none;
+        }
+        a:hover{
+            border-bottom: 1px solid red;
+            text-decoration: none;
+        }
+
+    }
+}
+@media (max-width:991px){
+    .pricing-container{
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .content{
+            width: 85%;
+            margin: auto;
+            grid-template-columns: auto;
+            grid-gap: 30px;
+        }
+    }
+
+}

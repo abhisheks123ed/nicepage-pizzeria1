@@ -1,0 +1,89 @@
+.federico-container {
+    background-image: url("../../../assets/images/bg.jpg");
+    background-position: 50% 50%;
+    color: white;
+    overflow: hidden;
+
+    .text {
+        width: calc(((100% - 1140px) / 2) + 1140px);
+        margin: 0 0 0 auto;
+
+        .chef-bg {
+            background-image: url("../../../assets/images/chef-holding-delicious-pizza2.jpg");
+            background-position: right;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .text-container {
+            padding: 90px 20px;
+
+            h1 {
+                font-size: 3em;
+            }
+
+            p.p1 {
+                font-size: larger;
+                font-weight: 500;
+                padding: 10px 0 0 0;
+            }
+
+            p.p2 {
+                color: #808080;
+                font-size: larger;
+
+                a {
+                    color: #808080;
+                    border-bottom: 1px solid #808080;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    border-bottom: 1px solid red;
+                    text-decoration: none;
+                }
+
+            }
+
+            button {
+                border: 2px solid #e73d0c;
+                padding: 19px 48px;
+                font-size: 19px;
+                color: white;
+                background-color: transparent;
+                border-radius: 40px;
+            }
+
+            button:hover {
+                background-color: #e73d0c;
+            }
+        }
+
+    }
+}
+
+@media (max-width:991px) {
+    .federico-container {
+        .text {
+            width: 100%;
+
+            .chef-bg {
+                height: 395px;
+                background-position: bottom;
+            }
+            
+            .text-container {
+                padding: 50px;
+            }
+        }
+    }
+}
+@media only screen and (min-width:992px) and  (max-width:1199px){
+    .federico-container {
+        .text {
+            .text-container {
+                padding: 31px;
+            }
+        }
+    }
+}

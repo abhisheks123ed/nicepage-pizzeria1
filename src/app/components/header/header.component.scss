@@ -1,0 +1,37 @@
+.header{
+    .offcanvas{
+        background: #000000d4;
+        width: 25%;
+    }
+    
+}
+.fa-bars{
+    color: black;
+    font-size: 25px;
+}
+.btn-close{
+    color: white;
+    font-size: 23px;
+}
+.fa-bars:hover{
+   color: red;
+}
+.links{
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 23px;
+    }
+}
+
+
+@media   (max-width:575px){
+    .header{
+      padding: 23px;
+  
+      .offcanvas{
+        width: 41%;
+      }
+    }
+}
